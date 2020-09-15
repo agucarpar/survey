@@ -1,9 +1,10 @@
 import React from 'react'
+import './main.scss'
 
 const Main = () => {
     return (
         <div>
-            <p>Hello World!</p>
+            <p className='color'>Hello World!</p>
         </div>
     )
 }
